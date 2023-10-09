@@ -1,0 +1,33 @@
+* {
+    font-family: Times;
+}
+html {
+    font-size: 16px;
+}
+
+.title-container {
+    font-size: 32px;
+}
+
+#subtitle {
+    color: chocolate;
+    /* font-size: 2rem; */
+    font-size: 1em;
+    /* 1rem == 16px */
+    /* html태그의 font-size가 16px이기 때문. */
+    /* 1em == 16px */
+    /* 부모 class(title-container)의 font-size가 16px 이기 때문 */
+}
+
+.test {
+    height: 100px;
+    width: 100px;
+    background-color: darkgreen;
+    padding: 100px;
+    margin: 100px;
+    border: 2px solid red;
+}
+
+button:hover {
+    color: gray;
+}

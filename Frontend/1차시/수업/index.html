@@ -3,16 +3,19 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="./style.css" />
         <title>강민이의 웹 페이지</title>
+        <style>
+            #title {
+                color: aqua;
+            }
+        </style>
+        <link rel="stylesheet" href="./style.css" />
     </head>
     <body>
         <!-- 주석입니다! -->
-        <div id="title">
-            <h1>제목입니다.</h1>
-        </div>
-        <div id="subtitle">
-            <h3>작은 제목입니다.</h3>
+        <div class="title-container">
+            <h1 id="title">제목입니다.</h1>
+            <h3 id="subtitle">작은 제목입니다.</h3>
         </div>
 
         <div class="contents">
@@ -25,29 +28,25 @@
             </p>
         </div>
 
+        <div class="test"></div>
+
+        <!-- in-line 속성 -->
         <div class="submit">
             <input type="text" class="text" />
             <button>제출</button>
         </div>
 
-        <div class="link">
-            <a href="https://www.naver.com/">네이버로 바로가기</a>
-        </div>
+        <a href="https://www.naver.com/">네이버로 바로가기</a>
+        <img src="./img/haedal_img.jpeg" width="200px" />
 
-        <div class="img">
-            <img src="./img/haedal_img.jpeg" width="200px" />
-        </div>
-
-        <div class="list">
-            <ul>
-                <li class="red">내용1</li>
-                <li>내용2</li>
-            </ul>
-            <ol>
-                <li class="red">하나</li>
-                <li>둘</li>
-            </ol>
-        </div>
+        <ul>
+            <li class="red">내용1</li>
+            <li>내용2</li>
+        </ul>
+        <ol>
+            <li class="red">하나</li>
+            <li>둘</li>
+        </ol>
         <div class="table">
             <table>
                 <caption>
