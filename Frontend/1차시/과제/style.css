@@ -1,0 +1,167 @@
+.container {
+    display: flex;
+    height: 150px;
+    justify-content: flex-start;
+}
+
+.container .profile {
+    padding-left: 10px;
+    padding-right: 15px;
+    width: 200px;
+    height: 50px;
+}
+
+.container .Layout-main {
+    border: 1px solid #d8dee3;
+    border-radius: 5px;
+
+    padding-right: 10px;
+    width: 100%;
+    height: 650px;
+
+    text-align: center;
+    /* background: #ffc93c; */
+}
+h1 {
+    padding-left: 40px;
+}
+.container .name {
+    padding-top: 5px;
+}
+
+.image {
+    padding-top: 3px;
+}
+.image img {
+    border-radius: 10px;
+
+    width: 200px;
+    height: 270px;
+}
+
+.profile > .my_profile .name {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.profile > .my_profile .info {
+    color: #666e77;
+}
+
+.myButton {
+    margin-top: 5px;
+
+    text-align: center;
+    padding-top: 7px;
+    /* width: 136px; */
+    width: 100%;
+    height: 22px;
+    background-color: #f7f8fa;
+
+    border-radius: 7px;
+    border: 1px solid #d7d8db;
+
+    display: inline-block;
+
+    cursor: pointer;
+    color: black;
+
+    font-family: Arial;
+    font-size: 14px;
+    /* padding: 16px 31px; */
+    text-decoration: none;
+}
+.myButton:hover {
+    background-color: rgb(244, 243, 246);
+}
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+
+.team {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 100;
+}
+.school i {
+    padding-right: 4px;
+    color: #656d76;
+}
+
+.location i {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    padding-right: 4px;
+    color: #656d76;
+}
+
+.social {
+    padding-top: 15px;
+    padding-bottom: 10px;
+
+    color: black;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.social i {
+    font-size: 11px;
+    color: #656d76;
+}
+
+hr {
+    border: solid 0.5px #d8dee3;
+}
+#main {
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
+.instagram {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+#study {
+    padding-top: 3px;
+    padding-bottom: 5px;
+}
+.instagram i {
+    color: #656d76;
+    padding-right: 4px;
+}
+.beakjoon {
+    padding-top: 10px;
+    width: 200px;
+}
+
+.intro > hr {
+    width: 90%;
+}
+
+.contents li {
+    padding-bottom: 5px;
+    list-style: none;
+}
+
+.activity > hr {
+    width: 90%;
+}
+
+#semester_1st {
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 4px;
+}
+
+#semester_2nd {
+    font-weight: bold;
+    font-size: 20px;
+
+    padding-top: 10px;
+    padding-bottom: 4px;
+}
