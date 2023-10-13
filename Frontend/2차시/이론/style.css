@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+
+    /* vh 요소는 높이값의 100분의 1의 단위 */
+    height: 100vh;
+
+    background-color: rgb(254, 252, 243);
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(250, 230, 146);
+
+    /* flex-direction: column; */
+    justify-content: flex-start;
+
+    flex-flow: row wrap;
+}
+
+.items {
+    display: flex;
+
+    /* 크기 */
+    width: 100px;
+    height: 100px;
+
+    /* 테두리 설정 */
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(237, 118, 176);
+
+    margin: 10px;
+
+    flex-grow: 1;
+    text-align: center;
+
+    background-color: rgb(251, 237, 235);
+}
